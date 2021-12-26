@@ -13,9 +13,10 @@ class MyApp extends StatelessWidget {
         primaryColor: Color(0xff2c2b50),
         primaryColorDark: Color(0xff050028),
         primaryColorLight: Color(0xff050028),
-        stackOverflow: Color(0xffedecee),
+        accentColor: Color(0xffedecee),
         visualDensity: VisualDensity.adaptivePlatformDensity
       ),
+      home: MyHomePage(),
     );
   }
 }
